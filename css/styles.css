@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+:root {
+  --primary_brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+/*-- header navigation --*/
+.nav-page {
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--primary_brand);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--dark);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1666;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-header:hover,
+.nav-header:focus {
+  color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*-- header address--*/
+.address {
+  font-style: normal;
+}
+
+.address-page {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.address-page:hover,
+.address-page:focus {
+  color: #404bbf;
+}
+
+/*-- main section1--*/
+.article {
+  background-color: #2e2f42;
+}
+
+.article-main {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-article-order {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-article-order:hover,
+.button-article-order:focus {
+  background-color: #404bbf;
+}
+
+/*-- main section2--*/
+.story-article {
+}
+
+.company-theory {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.explaining-theory {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*--main section3--*/
+.what-are-we-doing {
+}
+
+.work-picture {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/*--mail section4--*/
+.team-people-list {
+  background-color: #f4f4fd;
+}
+
+.team-command {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-member-photo {
+  background-color: #ffffff;
+}
+
+.team-command-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-command-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*--- footer---*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-information {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+
+/*---portfolio---*/
+/*---header nav---*/
+
+.logo-portfolio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-color-changed {
+  color: #2e2f42;
+}
+
+.list {
+}
+
+/*---main---*/
+.button-all-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.button-all-button:hover,
+.button-all-button:focus {
+  color: #ffffff;
+}
+
+.button-all-button:hover,
+.button-all-button:focus {
+  background-color: #404bbf;
+}
