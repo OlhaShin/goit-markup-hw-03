@@ -211,9 +211,12 @@ img {
 
 .company-theory-list {
   gap: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 .company-theory-item {
+  width: calc((100%-72px) / 4);
 }
 
 .explaining-theory {
