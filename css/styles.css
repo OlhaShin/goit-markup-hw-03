@@ -225,6 +225,7 @@ img {
 
 /*--main section3--*/
 .what-are-we-doing {
+  padding-bottom: 120px;
 }
 
 .work-picture {
@@ -233,6 +234,16 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.list-section-three {
+  gap: 24px;
+  display: flex;
+}
+
+.section-three-image {
+  width: calc((100% - 48px) / 3);
 }
 
 /*--mail section4--*/
