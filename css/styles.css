@@ -333,9 +333,9 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-header-portfolio {
+/*---.container-header-portfolio {
   display: flex;
-}
+}---*/
 
 .navigation-portfolio-header {
   display: flex;
@@ -380,12 +380,12 @@ img {
   margin-bottom: 72px;
 }
 
-.container-portfolio {
+/*---.container-portfolio {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
+}--*/
 
 .list-portfolio-two {
   display: flex;
