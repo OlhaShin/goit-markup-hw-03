@@ -243,9 +243,12 @@ img {
 .list-section {
   gap: 24px;
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 .section-three-image {
+  width: calc((100% - 48px) / 3);
 }
 
 /*--mail section4--*/
@@ -267,6 +270,7 @@ img {
 .team-member-photo {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-member-container {
@@ -310,6 +314,7 @@ img {
 
 .logo-studio-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 /*---portfolio---*/
@@ -339,11 +344,10 @@ img {
 
 /*---.container-header-portfolio {
   display: flex;
-}---*/
-
+}
 .header-portfolio-one {
   display: flex;
-}
+}---*/
 
 .navigation-portfolio-header {
   display: flex;
@@ -400,9 +404,12 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio-images-list {
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-div-images {
