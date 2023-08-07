@@ -214,7 +214,7 @@ img {
 }
 
 .company-theory-item {
-}
+flex-basis: calc((100% - 72px) / 4)); }
 
 .explaining-theory {
   line-height: 1.5;
