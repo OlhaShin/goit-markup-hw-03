@@ -379,3 +379,10 @@ img {
   gap: 24px;
   margin-bottom: 72px;
 }
+
+.container-portfolio {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
