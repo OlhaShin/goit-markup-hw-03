@@ -319,6 +319,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-color-changed {
@@ -326,6 +327,19 @@ img {
 }
 
 .list {
+}
+
+.portfolio-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header-portfolio {
+  display: flex;
+}
+
+.navigation-portfolio-header {
+  display: flex;
+  align-items: center;
 }
 
 /*---main---*/
@@ -338,14 +352,30 @@ img {
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .button-all-button:hover,
 .button-all-button:focus {
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .button-all-button:hover,
 .button-all-button:focus {
   background-color: #404bbf;
+}
+
+.main-section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.list-portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
