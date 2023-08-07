@@ -314,6 +314,7 @@ img {
 
 .logo-studio-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 /*---portfolio---*/
