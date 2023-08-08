@@ -128,7 +128,6 @@ img {
 
 .link {
   text-decoration: none;
-  display: inline-block;
 }
 
 /*-- header address--*/
@@ -304,6 +303,7 @@ img {
 
 .logo-web-footer {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-information {
@@ -314,6 +314,7 @@ img {
 
 .logo-studio-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 /*---portfolio---*/
