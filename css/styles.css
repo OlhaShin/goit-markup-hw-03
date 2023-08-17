@@ -49,6 +49,10 @@ li {
   padding-left: 0;
 }
 
+.default-list {
+  list-style: none;
+}
+
 img {
   display: block;
 }
