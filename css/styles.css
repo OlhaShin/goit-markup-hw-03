@@ -321,6 +321,8 @@ img {
   margin-bottom: 16px;
   display: inline-block;
   color: #4d5ae5;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .footer-information {
@@ -331,6 +333,7 @@ img {
 
 .logo-studio-footer {
   color: #f4f4fd;
+  text-transform: uppercase;
 }
 
 /*---portfolio---*/
