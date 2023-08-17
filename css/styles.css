@@ -329,6 +329,8 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
+  font-weight: 400;
 }
 
 .logo-studio-footer {
