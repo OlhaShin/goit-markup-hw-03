@@ -196,7 +196,8 @@ img {
 
 /*-- main section2--*/
 .story-article {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 0px;
 }
 
 .visually-hidden {
@@ -225,6 +226,7 @@ img {
   gap: 24px;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
 .company-theory-item {
